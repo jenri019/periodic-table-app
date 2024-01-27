@@ -9,7 +9,7 @@ export const Info = ({selectedElement}) => {
         const information = `
         Nombre: ${selectedElement[2]},
         Numero atómico: ${selectedElement[0]}
-        Característica: ${selectedElement[17]}
+        Familia: ${selectedElement[17]}
         `
         speak({ text: information })
     }
